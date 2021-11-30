@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Views/Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="../Views/Students.html">Students</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <div class="tit">
+            Edit Assignment
+        </div>
+        <div class="addform">
+            <form class="form1" action="../Views/Assignments per Course.html">
+                <label for="title">Title: </label>
+                <input style="margin:5px 0px 0px 118px;" value="Sample Title" type="text" id="title" name="title" pattern="[A-Za-z\s]+" maxlength="15" required> <br />
+
+                <label for="description">Description:</label>
+                <input style="margin:5px 0px 0px 04px;" value="Sample Description lalala" type="text" id="description" name="description" pattern="[A-Za-z\s]+" maxlength="45" required> <br />
+
+                <label for="submitDate">Submit Date:</label>
+                <input style="margin:5px 0px 0px 24px;" value="2021-12-12" type="date" min="2021-11-11" max="2022-03-05" id="submitDate" name="submitDate" required> <br />
+
+                <label for="subject" required>Subject:</label>
+                <select style="margin:5px 0px 0px 65px;" name="subject" value="">
+                    <option selected value="Cs">C#</option>
+                    <option value="Py">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Js">Javascript</option>
+
+                </select>
+                <br />
+                <br />
+
+                <input type="submit" value="Save">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

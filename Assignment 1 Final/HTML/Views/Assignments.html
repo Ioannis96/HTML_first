@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="Students.html">Students</a>
+            </li>
+            <li>
+                <a href="Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+
+        </ul>
+
+
+
+    </div>
+    <div class="tit">
+        Assignments
+    </div>
+    <button class="add">
+        <a href="../Edits/Add_Assignments.html">Add Assignment</a>
+    </button>
+    <table class="table" style="height:750px;">
+        <thead>
+            <tr>
+                <td>Title</td>
+                <td>Description</td>
+                <td>Submit Date</td>
+                <td>Course</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Calculator</td>
+                <td>Build a basic calculator</td>
+                <td><date>2021-11-11</date></td>
+                <td>C#</td>
+                <td><button class="edit"><a href="../Edits/Edit_Assignments.html">Edit this Assignment</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td>Build a basic website</td>
+                <td><date>2021-12-15</date></td>
+                <td>Javascript</td>
+                <td><button class="edit"><a href="../Edits/Edit_Assignments.html">Edit this Assignment</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+            </tr>
+            <tr>
+                <td>E-Shop</td>
+                <td>Build a basic e-shop</td>
+                <td><date>2022-01-01</date></td>
+                <td>Python</td>
+                <td><button class="edit"><a href="../Edits/Edit_Assignments.html">Edit this Assignment</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+            </tr>
+            <tr>
+                <td>Banking System</td>
+                <td>Build a Banking System</td>
+                <td><date>2022-02-11</date></td>
+                <td>Java</td>
+                <td><button class="edit"><a href="../Edits/Edit_Assignments.html">Edit this Assignment</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+            </tr>
+            <tr>
+                <td>Social Media</td>
+                <td>Build a social media website</td>
+                <td><date>2022-03-05</date></td>
+                <td>C#</td>
+                <td><button class="edit"><a href="../Edits/Edit_Assignments.html">Edit this Assignment</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function delFunction() {
+            confirm("Are you sure you want to delete?");
+        }
+    </script>
+
+</body>
+</html>

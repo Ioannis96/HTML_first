@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Views/Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="../Views/Students.html">Students</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="tit">
+        Add Course
+    </div>
+
+    <div class="addform" style="height: 350px">
+        <form class="form1" action="../Views/Courses.html">
+
+            <label for="courseName" required>Course:</label>
+            <select style="margin:5px 0px 0px 58px" name="subject" value="">
+                <option disabled selected> -- select option -- </option>
+                <option value="Cs">C#</option>
+                <option value="Py">Python</option>
+                <option value="Java">Java</option>
+                <option value="Js">Javascript</option>
+
+            </select> <br />
+
+            <label for="cb">CB:</label>
+            <input style="margin:5px 0px 0px 127px"  type="number" id="lname" name="cb" min="0" max="99" required> <br />
+
+            <label for="type" required>Type:</label>
+            <select style="margin:5px 0px 0px 95px" name="type" value="">
+                <option disabled selected> -- select option -- </option>
+                <option value="part">Part Time</option>
+                <option value="full">Full Time</option>
+            </select> <br />
+
+            <label for="startDate">Start Date:</label>
+            <input style="margin:5px 0px 0px 0px;" type="date" min="2017-10-01" max="2021-10-10" id="startDate" name="startDate" required> <br />
+
+            <label for="endDate">Date:</label>
+            <input style="margin:5px 0px 0px 94px" type="date" min="2018-10-01" max="2021-04-10" id="endDate" name="endDate" required> <br />
+
+            <br />
+            <br />
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+
+</body>
+</html>

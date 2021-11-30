@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Views/Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="../Views/Students.html">Students</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tit">
+        Add Student
+    </div>
+
+
+    <div class="addform">
+        <form class="form1"  action="../Views/Students.html">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" maxlength="15" required> <br />
+
+            <label for="lname">Last name:</label>
+            <input style="margin:5px 0px 0px 4px;" type="text" id="lname" name="lname" pattern="[A-Za-z]+" maxlength="15" required> <br />
+
+            <label for="workSince">Birthdate:</label>
+            <input style="margin:5px 0px 0px 24px;" type="date" min="1950-01-01" max="2005-01-01" id="dateOfBirth" name="dateOfBirth" placeholder="" required> <br />
+
+            <label for="subject" required>Subject:</label>
+            <select style="margin:5px 0px 0px 50px;" name="subject" value="">
+                <option disabled selected> -- select option -- </option>
+                <option value="Cs">C#</option>
+                <option value="Py">Python</option>
+                <option value="Java">Java</option>
+                <option value="Js">Javascript</option>
+
+            </select>
+            <br />
+            <br />
+            <br />
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+
+</body>
+</html>

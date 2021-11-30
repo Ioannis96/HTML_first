@@ -1,0 +1,144 @@
+﻿body {
+    background: linear-gradient(90deg, rgba(2,112,220,1) 0%, rgba(0,232,255,1) 100%);
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 0px 0px 0px 200px;
+}
+
+.nav {
+    vertical-align: central;
+    background-color: skyblue;
+    color: white;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    .nav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        height: 100%;
+    }
+
+        .nav ul li {
+            height: 80px;
+            display: block;
+            padding: 2px;
+            text-align: center;
+            font-size: 1.2rem;
+            border-bottom: 1px solid black;
+            transition: 0.2s;
+        }
+
+            .nav ul li:hover {
+                background-color: slateblue;
+            }
+
+.tit {
+    font-family: Digifit;
+    text-align: center;
+    font-size: 4rem;
+    background-image: linear-gradient(90deg,orangered,blue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.table {
+    border-collapse: collapse;
+    background: linear-gradient(90deg, rgba(220,177,2,1) 0%, rgba(255,68,0,1) 100%);
+    text-align: center;
+    width: 100%;
+}
+
+    .table thead {
+        font-size: 29px;
+        background: linear-gradient(90deg, rgba(254,255,0,1) 0%, rgba(255,162,0,1) 100%);
+        text-align: center;
+        height: 50px;
+    }
+
+    .table tr:nth-child(even) {
+        background: linear-gradient(90deg, rgba(220,148,2,1) 0%, rgba(255,111,0,1) 100%);
+    }
+
+
+    .table tbody tr td {
+        width: 100px;
+        height: 50px;
+    }
+
+.add {
+    background: linear-gradient(90deg,green,darkgreen);
+    font-size: 25px;
+    width: 20%;
+    height: 50px;
+}
+
+    .add:hover {
+        background: linear-gradient(90deg, rgba(220,148,2,1) 0%, rgba(255,111,0,1) 100%);
+    }
+
+.edit {
+    border-radius: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: darkseagreen;
+}
+
+.del {
+    border-radius: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: orangered;
+}
+
+.form1 {
+    font-size: 33px;
+    align-content: center;
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .form1 input {
+        font-size: 33px;
+    }
+
+    .form1 select {
+        font-size: 33px;
+    }
+
+.addform {
+    width: 650px;
+    margin: 100px 0px 200px 480px;
+    border: 4px solid yellow;
+    padding: 25px 25px 50px 25px;
+}
+
+
+.bg-text {
+    font-family: Digifit;
+    text-align: center;
+    font-size: 4rem;
+    background-image: linear-gradient(90deg, orangered,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+   
+}

@@ -1,0 +1,1482 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="Students.html">Students</a>
+            </li>
+            <li>
+                <a href="Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tit">
+        Students
+    </div>
+
+
+    <!--oi pinakes gemistikan grigora me excel no worries-->
+    <!--oi pinakes gemistikan grigora me excel no worries-->
+
+    <div>
+        <button class="add">
+            <a href="../Edits/Add_Students.html">Add Student</a>
+        </button>
+        <table class="table" style="height:750px;">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Course</td>
+                    <td>Age</td>
+                    <td>Actions</td>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr>
+                    <td>Edward Richards</td>
+                    <td>Javascript</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tara Casey</td>
+                    <td>Javascript</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Adam Hunt</td>
+                    <td>Python</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Jenna Martin</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Carlos Clark</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Catherine Cooper</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lilianna Cameron</td>
+                    <td>Javascript</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alexia Tucker</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Ellia Kelley</td>
+                    <td>Python</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>David Payne</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Brianna Wilson</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Cherry Davis</td>
+                    <td>Javascript</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kristian Brooks</td>
+                    <td>Python</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Andrew Grant</td>
+                    <td>C#</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Frederick Mason</td>
+                    <td>C#</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Chelsea Cameron</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Jessica Alexander</td>
+                    <td>Java</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tiana Evans</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Frederick Andrews</td>
+                    <td>Python</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Marcus Scott</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Vivian Douglas</td>
+                    <td>Java</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kelsey Harris</td>
+                    <td>C#</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alexander Payne</td>
+                    <td>C#</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Owen Elliott</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Ada Armstrong</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Eric Perkins</td>
+                    <td>Python</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Richard Russell</td>
+                    <td>Python</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Owen Spencer</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kristian Moore</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Madaline Davis</td>
+                    <td>Javascript</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Maximilian Holmes</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Marcus Edwards</td>
+                    <td>Javascript</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Ryan Thompson</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Maddie Perkins</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Roman Murphy</td>
+                    <td>Python</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lydia Cooper</td>
+                    <td>Python</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lydia Walker</td>
+                    <td>Javascript</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lucia Wells</td>
+                    <td>Javascript</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Adam Morgan</td>
+                    <td>Python</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sarah Payne</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>April Cole</td>
+                    <td>Python</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Amanda Barnes</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sofia Kelley</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Steven Owens</td>
+                    <td>C#</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Edwin Ross</td>
+                    <td>C#</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Agata Gray</td>
+                    <td>Java</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Harold Robinson</td>
+                    <td>Javascript</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Robert Cameron</td>
+                    <td>Javascript</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Vanessa Tucker</td>
+                    <td>Python</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sofia Roberts</td>
+                    <td>C#</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Steven Perry</td>
+                    <td>C#</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Rebecca Warren</td>
+                    <td>C#</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Amelia Barrett</td>
+                    <td>Javascript</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Annabella Mason</td>
+                    <td>Python</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sophia Evans</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Valeria Barrett</td>
+                    <td>Java</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Audrey Cameron</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Julian Montgomery</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Albert Henderson</td>
+                    <td>Python</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Ada Morrison</td>
+                    <td>Javascript</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Victor Cooper</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Camila Campbell</td>
+                    <td>Java</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Jasmine West</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tony Stewart</td>
+                    <td>Javascript</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sydney Richardson</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Clark Williams</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daniel Kelly</td>
+                    <td>Python</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Deanna Rogers</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Wilson Spencer</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Catherine Roberts</td>
+                    <td>Javascript</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Savana Anderson</td>
+                    <td>Python</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Darcy Foster</td>
+                    <td>Java</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daniel Jones</td>
+                    <td>Java</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Elian Murphy</td>
+                    <td>C#</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>James Rogers</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>George Harris</td>
+                    <td>Java</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Charlie Hawkins</td>
+                    <td>C#</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Andrew Adams</td>
+                    <td>Python</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tyler Ellis</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Maya Gray</td>
+                    <td>C#</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Nicole Ferguson</td>
+                    <td>Java</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Emily Bailey</td>
+                    <td>Java</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Natalie Montgomery</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Nicholas Brown</td>
+                    <td>Javascript</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Oliver Edwards</td>
+                    <td>Python</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sienna Holmes</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Reid Baker</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Chloe Walker</td>
+                    <td>Java</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Agata Armstrong</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Vincent Bennett</td>
+                    <td>Javascript</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Jessica Stevens</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Adam Sullivan</td>
+                    <td>Java</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sawyer Perkins</td>
+                    <td>Javascript</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Michael Ferguson</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Roland Grant</td>
+                    <td>C#</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Ned Stevens</td>
+                    <td>C#</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Evelyn Harris</td>
+                    <td>Python</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Penelope Bennett</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alford Hall</td>
+                    <td>Javascript</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Carina Holmes</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Reid Henderson</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Cadie Ellis</td>
+                    <td>C#</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Samantha Andrews</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tiana Farrell</td>
+                    <td>Python</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Marcus Riley</td>
+                    <td>Python</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Briony Ellis</td>
+                    <td>C#</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Stella Dixon</td>
+                    <td>C#</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kelvin Dixon</td>
+                    <td>Python</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Cherry Cole</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Frederick Hamilton</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Dominik Cameron</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Paige Martin</td>
+                    <td>Java</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lucas Grant</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Fiona Armstrong</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Marcus Kelly</td>
+                    <td>C#</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Connie West</td>
+                    <td>Javascript</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Isabella Kelley</td>
+                    <td>Python</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>David Andrews</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lyndon Fowler</td>
+                    <td>Java</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Arthur Bailey</td>
+                    <td>C#</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Roland Hawkins</td>
+                    <td>Javascript</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Joyce Scott</td>
+                    <td>Java</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tony Sullivan</td>
+                    <td>Python</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Fiona Hill</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Michelle Grant</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Garry Harrison</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Derek Thomas</td>
+                    <td>Python</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Audrey Roberts</td>
+                    <td>C#</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Amelia Kelley</td>
+                    <td>Python</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sabrina Scott</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Charlie Henderson</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Miller Farrell</td>
+                    <td>Python</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daisy Nelson</td>
+                    <td>Python</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Fiona Chapman</td>
+                    <td>Java</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Eleanor Morris</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Savana Higgins</td>
+                    <td>C#</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Connie Adams</td>
+                    <td>Java</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lyndon Alexander</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Owen Perry</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Blake Anderson</td>
+                    <td>Python</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Miller Howard</td>
+                    <td>Python</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Heather Richards</td>
+                    <td>Python</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lucia Allen</td>
+                    <td>Python</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Maximilian Wright</td>
+                    <td>Javascript</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Bruce Thompson</td>
+                    <td>Javascript</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Owen Evans</td>
+                    <td>Javascript</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Emma Mitchell</td>
+                    <td>Python</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Chester Chapman</td>
+                    <td>Java</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Carina Martin</td>
+                    <td>Python</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Lilianna Riley</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alen Martin</td>
+                    <td>Javascript</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Roland Thomas</td>
+                    <td>C#</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Brianna Cameron</td>
+                    <td>Java</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Olivia Richardson</td>
+                    <td>Java</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alina Hunt</td>
+                    <td>Python</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Connie Dixon</td>
+                    <td>Python</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Arnold Baker</td>
+                    <td>Java</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Edward Dixon</td>
+                    <td>Java</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Amy Gray</td>
+                    <td>C#</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alford Johnson</td>
+                    <td>Python</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alberta Edwards</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Jessica Parker</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Amanda Crawford</td>
+                    <td>C#</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Roland Ross</td>
+                    <td>Java</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Arnold Owens</td>
+                    <td>Javascript</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daryl Morris</td>
+                    <td>C#</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Violet Turner</td>
+                    <td>C#</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Catherine Cunningham</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Patrick Perry</td>
+                    <td>Javascript</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Victor Jones</td>
+                    <td>C#</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Tony Morgan</td>
+                    <td>Python</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Nicholas Perkins</td>
+                    <td>C#</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Julia Tucker</td>
+                    <td>Java</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daisy Russell</td>
+                    <td>Python</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Rubie Stevens</td>
+                    <td>Python</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Samantha Hawkins</td>
+                    <td>Python</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Dexter Barnes</td>
+                    <td>Java</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Dainton Hill</td>
+                    <td>Python</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Alberta Bailey</td>
+                    <td>Javascript</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Frederick Farrell</td>
+                    <td>Java</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Kirsten Clark</td>
+                    <td>Java</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Mike Andrews</td>
+                    <td>Javascript</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Mary Wilson</td>
+                    <td>Python</td>
+                    <td>19</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Rosie Fowler</td>
+                    <td>C#</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Carl Kelly</td>
+                    <td>Java</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Aiden Foster</td>
+                    <td>Java</td>
+                    <td>21</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Andrew Richardson</td>
+                    <td>Javascript</td>
+                    <td>20</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Sofia Cunningham</td>
+                    <td>C#</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Abraham Armstrong</td>
+                    <td>Javascript</td>
+                    <td>24</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Aiden Cunningham</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Mike Owens</td>
+                    <td>Python</td>
+                    <td>22</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Michelle Rogers</td>
+                    <td>C#</td>
+                    <td>28</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Clark Clark</td>
+                    <td>C#</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Deanna Holmes</td>
+                    <td>Java</td>
+                    <td>25</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Hailey Bennett</td>
+                    <td>Javascript</td>
+                    <td>30</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Maddie Perry</td>
+                    <td>Javascript</td>
+                    <td>18</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>James Stewart</td>
+                    <td>Java</td>
+                    <td>29</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Hailey Hunt</td>
+                    <td>C#</td>
+                    <td>23</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Gianna Phillips</td>
+                    <td>Java</td>
+                    <td>26</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>Daniel Cameron</td>
+                    <td>Javascript</td>
+                    <td>27</td>
+                    <td><button class=edit><a href="../Edits/Edit_Students.html">Edit this Student</a></button><button onclick="delFunction()" class=del>Delete</button></td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script>
+        function delFunction() {
+            confirm("Are you sure you want to delete?");
+        }
+    </script>
+
+
+</body>
+</html>

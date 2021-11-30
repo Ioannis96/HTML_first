@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Views/Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="../Views/Students.html">Students</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tit">
+       Add Assignments per Student 
+    </div>
+
+  
+        <div class="addform" style="width: 50%; margin-left: 400px; height:400px;" >
+            <form class="form1" action="../Views/Assignments per Student per Course.html">
+
+
+                <label for="student">Student: </label>
+                <input list="students" style="margin:5px 0px 0px 145px;" type="text" id="student" name="student" pattern="[A-Za-z\s]+" maxlength="25" required> <br />
+
+                <label for="title">Assignment Title: </label>
+                <input style="margin:5px 0px 0px 0px;" type="text" id="title" name="title" pattern="[A-Za-z\s]+" maxlength="15" required> <br />
+
+                <label for="description">Description:</label>
+                <input style="margin:5px 0px 0px 90px;" type="text" id="description" name="description" pattern="[A-Za-z\s]+" maxlength="45" required> <br />
+
+                <label for="submitDate">Submit Date:</label>
+                <input style="margin:5px 0px 0px 67px;" type="date" min="2021-11-11" max="2022-03-05" id="submitDate" name="submitDate" required> <br />
+
+                <label for="oral">Oral Score:</label>
+                <input style="margin:5px 0px 0px 100px;" type="number" min="0" max="100" name="oral" value="" /><br />
+                
+                <label for="total">Total Score:</label>
+                <input style="margin:5px 0px 0px 89px;" type="number" min="0" max="200" name="total" value="" /><br />
+
+                <label for="subject" required>Subject:</label>
+                <select style="margin:5px 0px 0px 145px;" name="subject" value="">
+                    <option disabled selected> -- select option -- </option>
+                    <option value="Cs">C#</option>
+                    <option value="Py">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Js">Javascript</option>
+
+                </select>
+                <br />
+                <br />
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <datalist id="students">
+            <option value="Edward Richards">
+            <option value="Tara Casey">
+            <option value="Adam Hunt">
+            <option value="Jenna Martin">
+            <option value="Carlos Clark">
+            <option value="Catherine Cooper">
+            <option value="Lilianna Cameron">
+            <option value="Alexia Tucker">
+            <option value="Ellia Kelley">
+            <option value="David Payne">
+            <option value="Brianna Wilson">
+            <option value="Cherry Davis">
+            <option value="Kristian Brooks">
+            <option value="Andrew Grant">
+            <option value="Frederick Mason">
+            <option value="Chelsea Cameron">
+            <option value="Jessica Alexander">
+            <option value="Tiana Evans">
+            <option value="Frederick Andrews">
+            <option value="Marcus Scott">
+            <option value="Vivian Douglas">
+            <option value="Kelsey Harris">
+            <option value="Alexander Payne">
+            <option value="Owen Elliott">
+            <option value="Ada Armstrong">
+            <option value="Eric Perkins">
+            <option value="Richard Russell">
+            <option value="Owen Spencer">
+            <option value="Kristian Moore">
+            <option value="Madaline Davis">
+            <option value="Maximilian Holmes">
+            <option value="Marcus Edwards">
+            <option value="Ryan Thompson">
+            <option value="Maddie Perkins">
+            <option value="Roman Murphy">
+            <option value="Lydia Cooper">
+            <option value="Lydia Walker">
+            <option value="Lucia Wells">
+            <option value="Adam Morgan">
+            <option value="Sarah Payne">
+            <option value="April Cole">
+            <option value="Amanda Barnes">
+            <option value="Sofia Kelley">
+            <option value="Steven Owens">
+            <option value="Edwin Ross">
+            <option value="Agata Gray">
+            <option value="Harold Robinson">
+            <option value="Robert Cameron">
+            <option value="Vanessa Tucker">
+            <option value="Sofia Roberts">
+            <option value="Steven Perry">
+            <option value="Rebecca Warren">
+            <option value="Amelia Barrett">
+            <option value="Annabella Mason">
+            <option value="Sophia Evans">
+            <option value="Valeria Barrett">
+            <option value="Audrey Cameron">
+            <option value="Julian Montgomery">
+            <option value="Albert Henderson">
+            <option value="Ada Morrison">
+            <option value="Victor Cooper">
+            <option value="Camila Campbell">
+            <option value="Jasmine West">
+            <option value="Tony Stewart">
+            <option value="Sydney Richardson">
+            <option value="Clark Williams">
+            <option value="Daniel Kelly">
+            <option value="Deanna Rogers">
+            <option value="Wilson Spencer">
+            <option value="Catherine Roberts">
+            <option value="Savana Anderson">
+            <option value="Darcy Foster">
+            <option value="Daniel Jones">
+            <option value="Elian Murphy">
+            <option value="James Rogers">
+            <option value="George Harris">
+            <option value="Charlie Hawkins">
+            <option value="Andrew Adams">
+            <option value="Tyler Ellis">
+            <option value="Maya Gray">
+            <option value="Nicole Ferguson">
+            <option value="Emily Bailey">
+            <option value="Natalie Montgomery">
+            <option value="Nicholas Brown">
+            <option value="Oliver Edwards">
+            <option value="Sienna Holmes">
+            <option value="Reid Baker">
+            <option value="Chloe Walker">
+            <option value="Agata Armstrong">
+            <option value="Vincent Bennett">
+            <option value="Jessica Stevens">
+            <option value="Adam Sullivan">
+            <option value="Sawyer Perkins">
+            <option value="Michael Ferguson">
+            <option value="Roland Grant">
+            <option value="Ned Stevens">
+            <option value="Evelyn Harris">
+            <option value="Penelope Bennett">
+            <option value="Alford Hall">
+            <option value="Carina Holmes">
+            <option value="Reid Henderson">
+            <option value="Cadie Ellis">
+            <option value="Samantha Andrews">
+            <option value="Tiana Farrell">
+            <option value="Marcus Riley">
+            <option value="Briony Ellis">
+            <option value="Stella Dixon">
+            <option value="Kelvin Dixon">
+            <option value="Cherry Cole">
+            <option value="Frederick Hamilton">
+            <option value="Dominik Cameron">
+            <option value="Paige Martin">
+            <option value="Lucas Grant">
+            <option value="Fiona Armstrong">
+            <option value="Marcus Kelly">
+            <option value="Connie West">
+            <option value="Isabella Kelley">
+            <option value="David Andrews">
+            <option value="Lyndon Fowler">
+            <option value="Arthur Bailey">
+            <option value="Roland Hawkins">
+            <option value="Joyce Scott">
+            <option value="Tony Sullivan">
+            <option value="Fiona Hill">
+            <option value="Michelle Grant">
+            <option value="Garry Harrison">
+            <option value="Derek Thomas">
+            <option value="Audrey Roberts">
+            <option value="Amelia Kelley">
+            <option value="Sabrina Scott">
+            <option value="Charlie Henderson">
+            <option value="Miller Farrell">
+            <option value="Daisy Nelson">
+            <option value="Fiona Chapman">
+            <option value="Eleanor Morris">
+            <option value="Savana Higgins">
+            <option value="Connie Adams">
+            <option value="Lyndon Alexander">
+            <option value="Owen Perry">
+            <option value="Blake Anderson">
+            <option value="Miller Howard">
+            <option value="Heather Richards">
+            <option value="Lucia Allen">
+            <option value="Maximilian Wright">
+            <option value="Bruce Thompson">
+            <option value="Owen Evans">
+            <option value="Emma Mitchell">
+            <option value="Chester Chapman">
+            <option value="Carina Martin">
+            <option value="Lilianna Riley">
+            <option value="Alen Martin">
+            <option value="Roland Thomas">
+            <option value="Brianna Cameron">
+            <option value="Olivia Richardson">
+            <option value="Alina Hunt">
+            <option value="Connie Dixon">
+            <option value="Arnold Baker">
+            <option value="Edward Dixon">
+            <option value="Amy Gray">
+            <option value="Alford Johnson">
+            <option value="Alberta Edwards">
+            <option value="Jessica Parker">
+            <option value="Amanda Crawford">
+            <option value="Roland Ross">
+            <option value="Arnold Owens">
+            <option value="Daryl Morris">
+            <option value="Violet Turner">
+            <option value="Catherine Cunningham">
+            <option value="Patrick Perry">
+            <option value="Victor Jones">
+            <option value="Tony Morgan">
+            <option value="Nicholas Perkins">
+            <option value="Julia Tucker">
+            <option value="Daisy Russell">
+            <option value="Rubie Stevens">
+            <option value="Samantha Hawkins">
+            <option value="Dexter Barnes">
+            <option value="Dainton Hill">
+            <option value="Alberta Bailey">
+            <option value="Frederick Farrell">
+            <option value="Kirsten Clark">
+            <option value="Mike Andrews">
+            <option value="Mary Wilson">
+            <option value="Rosie Fowler">
+            <option value="Carl Kelly">
+            <option value="Aiden Foster">
+            <option value="Andrew Richardson">
+            <option value="Sofia Cunningham">
+            <option value="Abraham Armstrong">
+            <option value="Aiden Cunningham">
+            <option value="Mike Owens">
+            <option value="Michelle Rogers">
+            <option value="Clark Clark">
+            <option value="Deanna Holmes">
+            <option value="Hailey Bennett">
+            <option value="Maddie Perry">
+            <option value="James Stewart">
+            <option value="Hailey Hunt">
+            <option value="Gianna Phillips">
+            <option value="Daniel Cameron">
+        </datalist>
+
+</body>
+</html>

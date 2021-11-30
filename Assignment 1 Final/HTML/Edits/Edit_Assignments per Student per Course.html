@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../../CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="../../Index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Views/Courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a href="../Views/Students.html">Students</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments.html">Assignments</a>
+            </li>
+            <li>
+                <a href="../Views/Trainers per Course.html">Trainers per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Students per Course.html">Students per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Course.html">Assignments per Course</a>
+            </li>
+            <li>
+                <a href="../Views/Assignments per Student per Course.html">Assignments per Student per Course</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tit">
+       Edit Assignment
+    </div>
+
+    <div class="addform" style="width: 50%; margin-left: 400px; height:400px;">
+        <form class="form1" action="../Views/Assignments per Student per Course.html">
+
+
+            <label for="student">Student: </label>
+            <input list="students" style="margin:5px 0px 0px 145px;" value="Sample Name" type="text" id="student" name="student" pattern="[A-Za-z\s]+" maxlength="35" required> <br />
+
+            <label for="title">Assignment Title: </label>
+            <input style="margin:5px 0px 0px 0px;" type="text" value="Sample Title" id="title" name="title" pattern="[A-Za-z\s]+" maxlength="15" required> <br />
+
+            <label for="description">Description:</label>
+            <input style="margin:5px 0px 0px 90px;" type="text" value="Sample Description" id="description" name="description" pattern="[A-Za-z\s]+" maxlength="45" required> <br />
+
+            <label for="submitDate">Submit Date:</label>
+            <input style="margin:5px 0px 0px 67px;" type="date" value="2022-01-01" min="2021-11-11" max="2022-03-05" id="submitDate" name="submitDate" required> <br />
+
+            <label for="oral">Oral Score:</label>
+            <input style="margin:5px 0px 0px 100px;" value="90" type="number" min="0" max="100" name="oral" value="" /><br />
+
+            <label for="total">Total Score:</label>
+            <input style="margin:5px 0px 0px 89px;" value="170" type="number" min="0" max="200" name="total" value="" /><br />
+
+            <label for="subject" required>Subject:</label>
+            <select style="margin:5px 0px 0px 145px;" name="subject" value="">
+                <option selected value="Cs">C#</option>
+                <option value="Py">Python</option>
+                <option value="Java">Java</option>
+                <option value="Js">Javascript</option>
+
+            </select>
+            <br />
+            <br />
+
+            <input type="submit" value="Save">
+        </form>
+    </div>
+
+</body>
+</html>
